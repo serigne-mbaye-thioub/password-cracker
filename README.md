@@ -80,7 +80,6 @@ classDiagram
     BruteForceHashCracker ..> MD5Utils : utilise
 ```
 
-> Ce diagramme reprend la structure imposée dans l'énoncé (`HashCracker`, `DictionaryHashCracker`, `BruteForceHashCracker`, `HashCrackerFactory`) et y ajoute deux classes techniques (`MD5Utils`, `Main`) qui font partie de l'implémentation réelle mais n'étaient pas représentées dans le diagramme fourni.
 
 ## 5. Usage du patron Simple Factory
 
