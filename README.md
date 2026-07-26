@@ -126,7 +126,6 @@ Le programme a été compilé (JDK 21) et testé avec succès sur plusieurs scé
 | 8 | `-m BRUTE -h aaaaaa...` (hash inventé, recherche exhaustive) | `Password not found` | 475 254 | 549 ms |
 | 9 | `-m FOO -h abcd` (méthode invalide) | `Erreur : Méthode de cassage inconnue : FOO` | — | — |
 
-Les résultats des tests #5, #7 et #8 correspondent exactement aux valeurs attendues par le calcul théorique (26 lettres, puis 26² = 676, 26³ = 17 576, 26⁴ = 456 976 combinaisons), ce qui confirme la correction de l'algorithme de génération de combinaisons.
 
 **Vidéo de présentation** : *(à insérer ici — lien YouTube/Drive de la démonstration, durée max. 10 minutes, montrant l'exécution des deux modes et des cas d'erreur ci-dessus)*.
 
